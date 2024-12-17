@@ -1,0 +1,55 @@
+cd "/Users/joao/Downloads/Challenge/"
+
+git clone https://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@github.com/fullstacklabs/assessment-cc-react-sr-01.git --branch v3.0.0
+
+
+
+
+Consultar a documentacao
+
+sem informacao use a mais recente
+
+INSTALL NODE
+
+nvm install x.x.x nvm use x.x.x
+
+"engines": {
+  "node": ">=14.17.0"
+}
+
+* nvm install 14.17.0
+* nvm use 14.17.0
+checar
+* node -v
+
+
+INSTALL NPM
+instale as bibliotecas e pacotes
+npm install
+
+
+RUN THE API SERVER
+npm run serve:data
+
+IMPORT THE FIGMA FILE
+- .fig
+- inspect to get the info
+
+
+TESTE A APLICACAO
+verifique a interface e endpoints
+
+NO FINAL FAZER O ZIP COM O CHECKSUN
+
+chmod +x generateZip.sh  # Dê permissão ao script
+./generateZip.sh         # Execute o script para gerar o ZIP
+
+generateZip.sh (por exemplo, onde está o package.json)
+
+
+
+git switch -c battle-of-monsters-joao:
+- Suas alterações estarão isoladas nessa branch, permitindo que você desenvolva e teste sem interferir na branch original.
+
+
+npm run serve:data

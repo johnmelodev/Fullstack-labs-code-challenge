@@ -1,0 +1,117 @@
+Roteiro de Implementação
+
+- Parte 1: 
+Configuração Inicial e Carregamento dos Dados
+- Objetivo: Carregar a lista de monstros e mostrar no componente de seleção.
+
+Arquivos modificados:
+
+* ./components/monsters-list/MonstersList.extended.tsx
+* ./pages/battle-of-monsters/BattleOfMonsters.extended.tsx
+
+Fluxo de Desenvolvimento:
+
+(Comece por BattleOfMonsters.extended.tsx, onde você irá configurar o estado inicial da lista de monstros e do monstro selecionado.)
+
+(No componente MonstersList.extended.tsx, adicione a lógica para exibir a lista de monstros carregada e possibilitar a seleção de um monstro.)
+
+(Teste o carregamento e exibição dos monstros no navegador, mas a lógica da batalha ainda não deve ser implementada aqui.)
+
+feat: creating header and fetching monsters data
+---------------------------------------------------------------------------
+
+- Parte 2: 
+Implementação da Lógica de Seleção de Monstros
+- Objetivo: Permitir ao usuário selecionar um monstro e exibir o monstro selecionado em tempo real.
+
+Arquivos modificados:
+
+* ./components/monsters-list/MonstersList.extended.tsx
+* ./pages/battle-of-monsters/BattleOfMonsters.extended.tsx
+
+Fluxo de Desenvolvimento:
+
+(Em MonstersList.extended.tsx, implemente a funcionalidade de seleção de monstros.)
+
+(Quando o usuário clica em um monstro, o monstro deve ser destacado visualmente.)
+
+(Atualize BattleOfMonsters.extended.tsx para exibir o monstro selecionado em um card do jogador.)
+
+feat: add monster selection and battle cards
+---------------------------------------------------------------------------
+
+- Parte 3: 
+Exibição dos Monstros Selecionados
+- Objetivo: Mostrar os detalhes dos monstros selecionados (jogador e computador) nos cards.
+
+Arquivos modificados:
+
+* ./components/monster-battle-card/MonsterBattleCard.extended.tsx
+* ./pages/battle-of-monsters/BattleOfMonsters.extended.tsx
+* ./components/monster-battle-card/MonsterBattleCard.extended.styled.tsx
+
+Fluxo de Desenvolvimento:
+
+(No arquivo MonsterBattleCard.extended.tsx, desenvolva o card para exibir as informações do monstro selecionado, como nome, imagem, HP, ataque, defesa e velocidade.)
+
+(Integre a exibição do card tanto para o monstro do jogador quanto para o monstro do computador no arquivo BattleOfMonsters.extended.tsx.)
+
+feat: implement battle logic and result calculation
+
+---------------------------------------------------------------------------
+
+- Parte 4:
+Implementação da Lógica de Batalha
+- Objetivo: Implementar a batalha entre o monstro selecionado pelo jogador e o monstro gerado aleatoriamente para o computador.
+
+Arquivos modificados:
+
+* ./reducers/monsters/monsters.actions.extended.ts
+* ./pages/battle-of-monsters/BattleOfMonsters.extended.tsx
+Fluxo de Desenvolvimento:
+
+(Em monsters.actions.extended.ts, implemente a função postBattle para enviar os IDs dos monstros e processar o resultado da batalha.)
+
+(Em BattleOfMonsters.extended.tsx, adicione a lógica para comparar os atributos dos monstros e determinar o vencedor.)
+
+
+feat: implement battle logic and result calculation
+---------------------------------------------------------------------------
+
+- Parte 5: 
+Exibição do Vencedor
+- Objetivo: Exibir o vencedor da batalha ou uma mensagem de empate.
+
+Arquivos modificados:
+
+* ./components/winner-display/WinnerDisplay.extended.tsx
+* ./pages/battle-of-monsters/BattleOfMonsters.extended.tsx
+
+Fluxo de Desenvolvimento:
+
+(Desenvolva o componente WinnerDisplay.extended.tsx para exibir o nome do vencedor ou uma mensagem de empate.)
+
+(No arquivo BattleOfMonsters.extended.tsx, integre a exibição do vencedor logo após a batalha, utilizando o estado para controlar o resultado.)
+
+
+feat: add winner display
+---------------------------------------------------------------------------
+
+
+- Parte 6: 
+Testes e Refatoração Final
+- Objetivo: Garantir que a aplicação esteja funcionando corretamente e os testes passem.
+
+Arquivos modificados:
+
+* ./components/monster-battle-card/MonsterBattleCard.extended.spec.tsx
+* ./components/monsters-list/MonstersList.spec.tsx
+* ./pages/battle-of-monsters/BattleOfMonsters.spec.tsx
+
+Fluxo de Desenvolvimento:
+
+(Escreva testes unitários e de integração para garantir que todas as funcionalidades estão funcionando conforme o esperado.)
+
+(Certifique-se de que todos os testes existentes também passem.)
+
+feat: add tests and final adjustments

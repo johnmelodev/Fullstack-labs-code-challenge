@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="21" failures="0" errors="0" time="16.405">
+  <testsuite name="Monsters Reducer" errors="0" failures="0" skipped="0" timestamp="2024-10-05T22:24:53" time="10.171" tests="3">
+    <testcase classname="Monsters Reducer should update the winner and tie on action fulfilled" name="Monsters Reducer should update the winner and tie on action fulfilled" time="0.015">
+    </testcase>
+    <testcase classname="Monsters Reducer should add the random monster to the state" name="Monsters Reducer should add the random monster to the state" time="0.001">
+    </testcase>
+    <testcase classname="Monsters Reducer should add the winner to the state" name="Monsters Reducer should add the winner to the state" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-10-05T22:25:03" time="0.395" tests="1">
+    <testcase classname=" should get the winner of the battle of monsters" name=" should get the winner of the battle of monsters" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Monsters Service" errors="0" failures="0" skipped="0" timestamp="2024-10-05T22:25:04" time="0.22" tests="2">
+    <testcase classname="Monsters Service should return the monsters list empty" name="Monsters Service should return the monsters list empty" time="0.002">
+    </testcase>
+    <testcase classname="Monsters Service should return the monsters list with data" name="Monsters Service should return the monsters list with data" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Monsters Reducer" errors="0" failures="0" skipped="0" timestamp="2024-10-05T22:25:04" time="0.216" tests="5">
+    <testcase classname="Monsters Reducer should return the initial state" name="Monsters Reducer should return the initial state" time="0.001">
+    </testcase>
+    <testcase classname="Monsters Reducer should not change the monsters list on action pending" name="Monsters Reducer should not change the monsters list on action pending" time="0.009">
+    </testcase>
+    <testcase classname="Monsters Reducer should not change the monsters list on action rejected" name="Monsters Reducer should not change the monsters list on action rejected" time="0.002">
+    </testcase>
+    <testcase classname="Monsters Reducer should change the monsters list on action fulfilled" name="Monsters Reducer should change the monsters list on action fulfilled" time="0.004">
+    </testcase>
+    <testcase classname="Monsters Reducer should add the selected monster to the state" name="Monsters Reducer should add the selected monster to the state" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="MonstersList" errors="0" failures="0" skipped="0" timestamp="2024-10-05T22:24:53" time="13.647" tests="3">
+    <testcase classname="MonstersList should render the monsters list" name="MonstersList should render the monsters list" time="0.24">
+    </testcase>
+    <testcase classname="MonstersList should render the no monsters available message" name="MonstersList should render the no monsters available message" time="0.01">
+    </testcase>
+    <testcase classname="MonstersList should click on the first monster card" name="MonstersList should click on the first monster card" time="0.16">
+    </testcase>
+  </testsuite>
+  <testsuite name="WinnerDisplay" errors="0" failures="0" skipped="0" timestamp="2024-10-05T22:24:53" time="14.163" tests="1">
+    <testcase classname="WinnerDisplay renders the default text when no winner text is provided" name="WinnerDisplay renders the default text when no winner text is provided" time="0.056">
+    </testcase>
+  </testsuite>
+  <testsuite name="WinnerDisplayExtended" errors="0" failures="0" skipped="0" timestamp="2024-10-05T22:24:53" time="14.187" tests="1">
+    <testcase classname="WinnerDisplayExtended renders the winner text correctly" name="WinnerDisplayExtended renders the winner text correctly" time="0.062">
+    </testcase>
+  </testsuite>
+  <testsuite name="MonsterBattleCard" errors="0" failures="0" skipped="0" timestamp="2024-10-05T22:24:53" time="14.233" tests="1">
+    <testcase classname="MonsterBattleCard renders the card with a title when no monster is provided" name="MonsterBattleCard renders the card with a title when no monster is provided" time="0.066">
+    </testcase>
+  </testsuite>
+  <testsuite name="BattleOfMonsters" errors="0" failures="0" skipped="0" timestamp="2024-10-05T22:24:53" time="14.475" tests="3">
+    <testcase classname="BattleOfMonsters should render the page container" name="BattleOfMonsters should render the page container" time="0.132">
+    </testcase>
+    <testcase classname="BattleOfMonsters should enable the start battle button on choose a monster" name="BattleOfMonsters should enable the start battle button on choose a monster" time="0.086">
+    </testcase>
+    <testcase classname="BattleOfMonsters should start fight after click on button" name="BattleOfMonsters should start fight after click on button" time="0.045">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-10-05T22:24:53" time="15.259" tests="1">
+    <testcase classname=" renders the monster card with correct values" name=" renders the monster card with correct values" time="0.076">
+    </testcase>
+  </testsuite>
+</testsuites>
